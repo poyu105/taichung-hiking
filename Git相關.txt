@@ -36,6 +36,6 @@ git pull 抓取&合併
 2.vim .gitignore 編輯輸入忽略檔案名稱
 =====================================================
 
-git cinfig --global --list 查看user.name/user.email
+git config --global --list 查看user.name/user.email
 git config --global user.name <名稱> 更改user.name
 git config --global user.email <email> 更改user.email
