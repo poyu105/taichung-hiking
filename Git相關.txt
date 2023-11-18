@@ -1,0 +1,41 @@
+大致指令可用Linux
+
+git init 初始化資料夾(在資料夾裡使用指令)使其增加版控(會產生.git檔)
+git log 查看目前分支版控內容&紀錄
+git reflog 查看所有版本紀錄
+git status 查看檔案狀況(Tracked/UnTracked,Commit/NoCommit,Modified)
+
+git add <filename> 把檔案加入版控
+git rm --cached <filename> 取消版控
+git commit -m "<敘述>" 新建版本(commit) /*commit完可用git log查看*/
+
+------更改完記得push------
+git push <遠端主機名稱> <本地主機名稱>
+遠端主機名稱:使用git remote 查看(參數-v檢視網址)
+-------------------------
+
+===============版本相關===============
+git checkout <版本號碼> 切換到某版本(使用git log查看[commit:版號])
+git checkout master(預設分支名稱，git branch查分支列表)切換到最新版本
+
+#{遠端回復到舊版本}
+-----@謹慎操作!-----
+1. git log --oneline -n(n表示查看近n次的提交紀錄)
+   [也可使用git reflog查看完整訊息/ID]
+2. git reset --hard <commit ID> (commit ID:用1.查詢並複製)將目錄更新為所選commit ID版本
+3. git push -f 強制上傳(忽略舊版本覆蓋新版本的提醒)
+~~用錯可用git reflog 查詢commit ID並回復到新版本~~
+
+#{本地端抓取到遠端版本}
+git pull 抓取&合併
+=====================================
+
+=====================================================
+.gitignore忽略不要版控的檔案(ex:系統檔案、記錄檔...)
+1.建立忽略清單 touch .gitignore 建立檔案
+2.vim .gitignore 編輯輸入忽略檔案名稱
+=====================================================
+
+git cinfig --global --list 查看user.name/user.email
+git config --global user.name <名稱> 更改user.name
+git config --global user.email <email> 更改user.email
