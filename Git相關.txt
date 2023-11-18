@@ -1,6 +1,8 @@
 大致指令可用Linux
 
+git remote add origin <URL> 加入遠端
 git init 初始化資料夾(在資料夾裡使用指令)使其增加版控(會產生.git檔)
+git clone <URL> 複製遠端至本地建立副本
 git log 查看目前分支版控內容&紀錄
 git reflog 查看所有版本紀錄
 git status 查看檔案狀況(Tracked/UnTracked,Commit/NoCommit,Modified)
@@ -27,7 +29,7 @@ git checkout master(預設分支名稱，git branch查分支列表)切換到最�
 ~~用錯可用git reflog 查詢commit ID並回復到新版本~~
 
 #{本地端抓取到遠端版本}
-git pull 抓取&合併
+git pull 抓取&合併(由遠端更新本地)
 =====================================
 
 =====================================================
@@ -36,6 +38,6 @@ git pull 抓取&合併
 2.vim .gitignore 編輯輸入忽略檔案名稱
 =====================================================
 
-git cinfig --global --list 查看user.name/user.email
+git config --global --list 查看user.name/user.email
 git config --global user.name <名稱> 更改user.name
 git config --global user.email <email> 更改user.email
