@@ -19,12 +19,11 @@
     align-content: center;
     border-bottom: 3px solid rgb(211, 145, 92);
 }
-
 .navbar-nav {
     margin-left: auto;
-    justify-content: flex-end;
-} 
-.post-content{
+    margin-right: 3%;
+}
+#post-content{
     margin: 3%;
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +34,7 @@
 }
 .card{
     margin: 10px;
+    width: 18rem;
 }
 .post-footer{
     display: flex;
