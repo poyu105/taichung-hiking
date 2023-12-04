@@ -1,109 +1,79 @@
-.navbar.navbar-expand-lg.bg-body-tertiary {
-    padding: 0;
-}
-
-.container-fluid {
-    background-color: rgb(172, 121, 56);
-}
-
-.navbar-header {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-brand {
-    margin-right: 2rem;
-}
-
-.navbar-nav {
-    margin-left: auto;
-    justify-content: flex-end;
-}
-
-#post {
-    margin: 2% 2% 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.post-nav {
-    width: inherit;
-    margin: 3px;
-    padding-bottom: 3%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-bottom: 3px solid rgb(211, 145, 92);
-}
-
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .sub-container {
-    width: 300px;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-    transition: all 0.3s ease;
-  }
-  
-  .sub-container:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  h3 {
-    margin-top: 0;
-  }
-  
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  ul {
-    margin: 10px 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  li {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-  }
-  
-  li::before {
-    content: "•";
-    margin-right: 5px;
-    color: #555;
-  }
-  
-  .sub-container:nth-child(even) {
-    background-color: #fff;
-    border-color: #ddd;
-  }
-  
-  .sub-container:nth-child(even):hover {
-    background-color: #f9f9f9;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-    }
-    .sub-container {
-        width: 80%;
-      }
-    }
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>台中好健行</title>
+        
+        <link href="media/icon.png" rel="icon">
+        <link href="about-style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</head>
+<body>
+    <!--導覽列-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+               <img src="media/mainlogo2-removebg.png"><!--首頁Logo /mianlogo2 removebg-->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     
-  
+    <div class="container">
+      <div class="sub-container">
+        <img src="media/profile.png" alt="picture1" class="align-item-center" />
+        <ul>
+          <li><h3 class="text-center">楊博丞</h3></li>
+          <li>班級： 資工二B</li>
+          <li>學號： 411147364</li>
+          <li><a href="mailto:s1114736@o365pu.edu.tw">信箱：s1114736@o365pu.edu.tw</a></li>
+        </ul>
+      </div>
+    
+      <div class="sub-container">
+        <img src="media/profile.png" alt="picture2" />
+        <ul>
+          <li><h3 class="text-center">李子軒</h3></li>
+          <li>班級： 資工二B</li>
+          <li>學號： 411110472</li>
+          <li><a href="mailto:s1111047@o365pu.edu.tw">信箱：s1111047@o365pu.edu.tw</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="sub-container">
+        <h3>Name</h3>
+        <img src="media/profile.png" alt="Gambar 3" />
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+    
+      <div class="sub-container">
+        <h3>Name</h3>
+        <img src="media/profile.png" alt="Gambar 4" />
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+    </div>
+    
+        
+</body>
+</html>
