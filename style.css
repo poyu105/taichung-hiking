@@ -36,7 +36,7 @@
     margin: 10px;
     width: 18rem;
 }
-.post-footer{
+#post-footer{
     display: flex;
     justify-content: center;
 }
