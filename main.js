@@ -44,7 +44,6 @@ function addCard(){
     if(sumOfCards%(count-1)!=0){
         missEle=true;
     }
-
     //增加card元素(非滿版時執行)
     if(missEle){
         count--;//count最終值必須-1
@@ -55,9 +54,7 @@ function addCard(){
             tempSum++;
             missCount=i;
         }
-
         console.log("missCount: "+missCount);
-        
         //新增element
         for(i=0;i<missCount;i++){
             var cardDiv=document.createElement("div");
@@ -81,6 +78,7 @@ function addCard(){
         }
     }
 }
+
 //頁面載入時執行
 window.onload=function(){
     addCard();
@@ -97,7 +95,7 @@ window.addEventListener('load',function(){
     })
 })
 
-//card優化2(動態添加，連接json) ***勿刪***
+//card優化2(動態添加，連接json) ***勿刪***  https://israynotarray.com/javascript/20190505/1432256317/
 
 /*
 
@@ -111,7 +109,7 @@ window.addEventListener('load',function(){
 function pageination(data){
     const dataTotal=data.length;//取得資料長度
 
-    const perpage=8;//每頁預計顯示資料量，預設8筆 !!預計從html拉取!!
+    const perpage=document.getElementById("dataselect").value;//每頁預計顯示資料量，預設8筆 !!預計從html拉取!!
 
     //計算所需的page數量 總資料數量 / 每一頁要顯示的資料 (須無條件進位)
     const pageTotal = Math.ceil(dataTotal / perpage);
