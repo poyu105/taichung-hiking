@@ -10,93 +10,97 @@
         <link href="style.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <script src="main.js"></script>
-</head>
-<body>
-    <!--導覽列-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-               <img src="media/mainlogo2-removebg.png"><!--首頁Logo /mianlogo2 removebg-->
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+        <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    </head>
+    <body>
+        <!--導覽列-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="media/mainlogo2-removebg.png"><!--首頁Logo /mianlogo2 removebg-->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-    <!--首頁背景圖片-->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="5000">
-                <img src="media/background_img1.jpg" class="d-block w-100" alt="background_img1">
-            </div>
+        </nav>
+        <!--首頁背景圖片-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="media/background_img1.jpg" class="d-block w-100" alt="background_img1">
+                </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="media/background_img2.jpg" class="d-block w-100" alt="background_img2">
             </div>
             <div class="carousel-item" data-bs-interval="5000">
                 <img src="media/background_img3.jpg" class="d-block w-100" alt="background_img3">
             </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </button>
     </div>
-    <!--主要內文-->
-    <div id="post">
-        <div class="post-nav"><!--內文導覽列-->
-            <!--下拉選單1-->
-            <select class="form-select" aria-label="Default select example">
-                <option selected>選擇地區</option>
-                <option value="1">中區</option>
-                <option value="2">東區</option>
-                <option value="3">西區</option>
-                <option value="4">南區</option>
-                <option value="5">北區</option>
-                <option value="6">西屯區</option>
-                <option value="7">南屯區</option>
-                <option value="8">北屯區</option>
-                <option value="9">豐原區</option>
-                <option value="10">大里區</option>
-                <option value="11">太平區</option>
-                <option value="12">清水區</option>
-                <option value="13">沙鹿區</option>
-                <option value="14">大甲區</option>
-                <option value="15">東勢區</option>
-                <option value="16">梧棲區</option>
-                <option value="17">烏日區</option>
-                <option value="18">神岡區</option>
-                <option value="19">大肚區</option>
-                <option value="20">大雅區</option>
-                <option value="21">后里區</option>
-                <option value="22">霧峰區</option>
-                <option value="23">潭子區</option>
-                <option value="24">龍井區</option>
-                <option value="25">外埔區</option>
-                <option value="26">和平區</option>
-                <option value="27">石岡區</option>
-                <option value="28">大安區</option>
-                <option value="29">新社區</option>
-            </select>
-            <!--下拉選單2-->
-            <select class="form-select" aria-label="Default select example">
-                <option selected>選擇分類</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <!--下拉選單3-->
-            <select class="form-select" aria-label="Default select example">
+</div>
+<!--主要內文-->
+<div id="post">
+    <div class="post-nav"><!--內文導覽列-->
+        <!--下拉選單1-->
+        <select class="form-select" aria-label="Default select example">
+            <option selected>選擇地區</option>
+            <option value="1">中區</option>
+            <option value="2">東區</option>
+            <option value="3">西區</option>
+            <option value="4">南區</option>
+            <option value="5">北區</option>
+            <option value="6">西屯區</option>
+            <option value="7">南屯區</option>
+            <option value="8">北屯區</option>
+            <option value="9">豐原區</option>
+            <option value="10">大里區</option>
+            <option value="11">太平區</option>
+            <option value="12">清水區</option>
+            <option value="13">沙鹿區</option>
+            <option value="14">大甲區</option>
+            <option value="15">東勢區</option>
+            <option value="16">梧棲區</option>
+            <option value="17">烏日區</option>
+            <option value="18">神岡區</option>
+            <option value="19">大肚區</option>
+            <option value="20">大雅區</option>
+            <option value="21">后里區</option>
+            <option value="22">霧峰區</option>
+            <option value="23">潭子區</option>
+            <option value="24">龍井區</option>
+            <option value="25">外埔區</option>
+            <option value="26">和平區</option>
+            <option value="27">石岡區</option>
+            <option value="28">大安區</option>
+            <option value="29">新社區</option>
+        </select>
+        <!--下拉選單2-->
+        <select class="form-select" aria-label="Default select example">
+            <option selected>選擇分類</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <!--下拉選單3-->
+        <select class="form-select" aria-label="Default select example">
                 <option selected>選擇等級</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -114,167 +118,33 @@
         <!--內文-->
         <!-- 連接JSON，楊博丞來做 -->
         <div id="post-content">
-            <!--內容1-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容2-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容3-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容4-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容5-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容6-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容7-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
-            <!--內容8-->
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-                </div>
-            </div>
+            
         </div>
         <div id="post-footer">
             <nav aria-label="...">
                 <ul class="pagination">
-                  <li class="page-item disabled">
-                    <span class="page-link">Previous</span>
-                  </li>
-                  <li class="page-item active" aria-current="page">
-                    <span class="page-link" href="#">1</span>
-                </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">2</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="#">3</a>
-                </li>
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                    <li class="page-item active" aria-current="page">
+                        <span class="page-link" href="#">1</span>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
                 <li class="page-item">
                     <a class="page-link" href="#">Next</a>
                 </li>
-                </ul>
-            </nav>
-        </div>
+            </ul>
+        </nav>
     </div>
-    <div id="page-footer">
+</div>
+<div id="page-footer">
         <small>page-footer</small>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
