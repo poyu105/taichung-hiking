@@ -287,7 +287,7 @@
       "maintenanceUnit": "大肚區公所",
       "length": "3.3",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "19",
@@ -303,7 +303,7 @@
       "maintenanceUnit": "大肚區公所",
       "length": "0.75",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "3.7"
     },
     {
       "number": "20",
@@ -319,7 +319,7 @@
       "maintenanceUnit": "大肚區公所",
       "length": "1.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "21",
@@ -335,7 +335,7 @@
       "maintenanceUnit": "大肚區公所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.2"
     },
     {
       "number": "22",
@@ -351,7 +351,7 @@
       "maintenanceUnit": "烏日區公所",
       "length": "1.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.2"
     },
     {
       "number": "23",
@@ -367,7 +367,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "0.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.2"
     },
     {
       "number": "24",
@@ -383,7 +383,7 @@
       "maintenanceUnit": "沙鹿區公所",
       "length": "8",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "3.7"
     },
     {
       "number": "25",
@@ -399,7 +399,7 @@
       "maintenanceUnit": "觀光旅遊局",
       "length": "3.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "26",
@@ -415,7 +415,7 @@
       "maintenanceUnit": "外埔區公所",
       "length": "0.1",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.7"
     },
     {
       "number": "27",
@@ -431,7 +431,7 @@
       "maintenanceUnit": "石岡區公所",
       "length": "4",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "28",
@@ -447,8 +447,7 @@
       "maintenanceUnit": "石岡區公所",
       "length": "0.7",
       "picture": "",
-      "evaluate": ""
-    },
+      "evaluate": "4.0"
     {
       "number": "29",
       "cityCode": "10019",
@@ -463,7 +462,7 @@
       "maintenanceUnit": "石岡區公所",
       "length": "2.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "30",
@@ -479,7 +478,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "2.4",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "3.8"
     },
     {
       "number": "31",
@@ -495,7 +494,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "0.9",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.0"
     },
     {
       "number": "32",
@@ -511,7 +510,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "3",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.7"
     },
     {
       "number": "33",
@@ -527,7 +526,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "0.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "3.8"
     },
     {
       "number": "34",
@@ -543,7 +542,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "3.17",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.2"
     },
     {
       "number": "35",
@@ -559,7 +558,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "36",
@@ -575,7 +574,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "37",
@@ -591,7 +590,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "0.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "38",
@@ -607,7 +606,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "1",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "39",
@@ -623,7 +622,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "0.42",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "40",
@@ -639,7 +638,7 @@
       "maintenanceUnit": "和平區公所",
       "length": "2.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.2"
     },
     {
       "number": "41",
@@ -655,7 +654,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "42",
@@ -671,7 +670,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.3",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "43",
@@ -687,7 +686,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "0.35",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "44",
@@ -703,7 +702,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "45",
@@ -719,7 +718,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.3",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.3"
     },
     {
       "number": "46",
@@ -735,7 +734,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.2",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "47",
@@ -751,7 +750,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.2",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.6"
     },
     {
       "number": "48",
@@ -767,7 +766,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.9",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.6"
     },
     {
       "number": "49",
@@ -783,7 +782,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.4",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "50",
@@ -799,7 +798,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.7",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.3"
     },
     {
       "number": "51",
@@ -815,7 +814,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "0.95",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "52",
@@ -831,7 +830,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.5"
     },
     {
       "number": "53",
@@ -847,7 +846,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "0.6",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "54",
@@ -863,7 +862,7 @@
       "maintenanceUnit": "風景區管理所",
       "length": "1",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     },
     {
       "number": "55",
@@ -879,7 +878,7 @@
       "maintenanceUnit": "太平區公所",
       "length": "0.46",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "56",
@@ -895,7 +894,7 @@
       "maintenanceUnit": "霧峰區公所",
       "length": "0.4",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.3"
     },
     {
       "number": "57",
@@ -911,7 +910,7 @@
       "maintenanceUnit": "豐原區公所",
       "length": "0.69",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.1"
     },
     {
       "number": "58",
@@ -927,7 +926,7 @@
       "maintenanceUnit": "龍井區公所",
       "length": "0.55",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "3.7"
     },
     {
       "number": "59",
@@ -943,7 +942,7 @@
       "maintenanceUnit": "和平區公所",
       "length": "2.5",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.7"
     },
     {
       "number": "60",
@@ -959,7 +958,7 @@
       "maintenanceUnit": "烏日區公所",
       "length": "0.13",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.3"
     },
     {
       "number": "61",
@@ -975,7 +974,7 @@
       "maintenanceUnit": "觀光旅遊局",
       "length": "2",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.5"
     },
     {
       "number": "62",
@@ -991,7 +990,7 @@
       "maintenanceUnit": "觀光旅遊局",
       "length": "0.65",
       "picture": "",
-      "evaluate": ""
+      "evaluate": "4.4"
     }
   ]
 }
