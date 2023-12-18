@@ -199,7 +199,7 @@ function getData() {
         let cardDiv2 = $("<div>").addClass("card-body");
         let cardTitle = $("<h5>")
           .addClass("card-title")
-          .html(trails[i]["titleName"]);
+          .html(trails[i]["trailName"]);
         let cardUl = $("<ul>").addClass("list-group list-group-flush");
         let cardLi1 = $("<li>")
           .addClass("list-group-item")
