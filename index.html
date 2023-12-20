@@ -95,52 +95,26 @@
         <!--下拉選單2-->
         <select class="form-select" aria-label="Default select example">
             <option selected>選擇分類</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="1">文化歷史</option>
+            <option value="2">自然景觀</option>
+            <option value="3">生態體驗</option>
         </select>
         <!--下拉選單3-->
         <select class="form-select" aria-label="Default select example">
-                <option selected>選擇等級</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <!--下拉選單4-->
-            <!-- 要改 -->
-            <select id="dataselect" class="form-select" aria-label="Default select example">
-                <option selected value="8">每頁顯示8筆資料</option>
-                <option value="16">每頁顯示16筆資料</option>
-                <option value="24">每頁顯示24筆資料</option>
-                <option value="32">每頁顯示32筆資料</option>
-            </select>
-        </div>
-        <!--內文-->
-        <!-- 連接JSON，楊博丞來做 -->
-        <div id="post-content">
-            
-        </div>
-        <div id="post-footer">
-            <nav aria-label="...">
-                <ul class="pagination">
-                    <li class="page-item disabled">
-                        <span class="page-link">Previous</span>
-                    </li>
-                    <li class="page-item active" aria-current="page">
-                        <span class="page-link" href="#">1</span>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                </li>
-            </ul>
-        </nav>
+            <option selected>選擇等級</option>
+            <option value="1">親子級</option>
+            <option value="2">休閒級</option>
+            <option value="3">健腳級</option>
+        </select>
+        <form class="search-form">
+            <input class="inputSearch" type="text" placeholder="Search">
+            <button class="searchbtn">
+                <img class="searchicon" src="media/search-icon.png">
+            </button>
+        </form>
     </div>
+        <!--內文-->
+        <div id="post-content"></div>
 </div>
 <div id="page-footer">
         <small>page-footer</small>

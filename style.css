@@ -13,31 +13,68 @@
 .post-nav{
     width: inherit;
     margin: 3px;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
     justify-content: center;
     align-content: center;
     border-bottom: 3px solid rgb(211, 145, 92);
+    background-color: antiquewhite;
+}
+select.form-select{
+    width: auto;
+    margin-left: 1%;
+}
+.search-form{
+    margin-left: 5%;
+    display: flex;
+    border-radius: 100px;
+}
+.inputSearch{
+    padding: 10px;
+    width: 100%;
+    border-style: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+}
+.searchbtn{
+    border-style: none;
+    background-color: white;
+    border: 10px white solid;
+    border-radius: 0 50px 50px 0;
+}
+.searchicon{
+    width: 10px;
 }
 .navbar-nav {
     margin-left: auto;
     margin-right: 3%;
 }
 #post-content{
-    margin: 3% 5.6%;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 3% 5%;
+    display: grid;
+    gap: 0 3%;
+    grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
 }
 .btn-group{
     margin: 0 5px 3px;
 }
 .card{
-    margin: 10px;
+    margin: 10px 1%;
     width: 18rem;
 }
-#post-footer{
-    display: flex;
-    justify-content: center;
+.card:hover{
+    box-shadow: 3px 3px 20px gray,
+                -3px 0px 20px gray;
+    transform: translateY(-3px);
+}
+.card-img-top{
+    width: auto;
+    height: 10rem;
+}
+h5.card-title{
+    margin: 0;
+    font-size: larger;
 }
 #page-footer{
     margin: 0;
@@ -50,11 +87,19 @@
 @media (max-width: 800px){
     .post-nav{
         width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         border-bottom: 3px solid rgb(211, 145, 92);
+    }
+    select.form-select{
+        margin-bottom: 1%;
+    }
+    .search-form{
+        margin-left: 1%;
     }
 }
 @media (max-width:756px){
