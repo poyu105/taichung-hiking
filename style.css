@@ -121,6 +121,10 @@ h5.card-title{
     .search-form{
         margin-left: 1%;
     }
+    .clearslc{
+        margin:1% 0 0 1%;
+        height: 3rem;
+    }
 }
 @media (max-width:756px){
     .post-content{
