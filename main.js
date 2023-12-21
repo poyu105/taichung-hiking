@@ -191,7 +191,6 @@ function getData() {
       //初始化卡片
       $("#post-content").empty();
       for (let i = 0; i < dataLengths; i++) {
-        console.log(i);
         let cardDiv1 = $("<div>").addClass("card");
         let cardImg = $("<img>")
           .addClass("card-img-top")
@@ -202,7 +201,7 @@ function getData() {
           .html(trails[i]["trailName"]);
         let cardUl = $("<ul>").addClass("list-group list-group-flush");
         let cardLi1 = $("<li>")
-          .addClass("list-group-item")
+          .addClass("list-group-item Area")
           .html("地區：" + trails[i]["area"]);
         let cardLi2 = $("<li>")
           .addClass("list-group-item")
@@ -210,10 +209,10 @@ function getData() {
             "經度：" + trails[i]["longitude"]+"<br>" +"緯度：" + trails[i]["latitude"]
           );
         let cardLi3 = $("<li>")
-          .addClass("list-group-item")
+          .addClass("list-group-item Classification")
           .html("分類：" + trails[i]["classification"]);
         let cardLi4 = $("<li>")
-          .addClass("list-group-item")
+          .addClass("list-group-item Level")
           .html("等級：" + trails[i]["level"]);
         let cardLi5 = $("<li>")
           .addClass("list-group-item")
@@ -250,3 +249,31 @@ function getData() {
 $(document).ready(function () {
   getData();
 });
+
+function update(selectedArea, selectedClassification, selectedLevel) {
+  $('#post-content .card').each(function (){
+    var cardArea = $(this).find('.Area').text();
+    var cardClassification = $(this).find('.Classification').text();
+    var cardLevel = $(this).find('.Level').text();
+
+    if (selectedArea == "選擇地區" || cardArea.includes(selectedArea)) {
+      if (selectedClassification == "選擇分類" || cardClassification.includes(selectedClassification)) {
+        if (selectedLevel == "選擇等級" || cardLevel.includes(selectedLevel)) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      } else {
+        $(this).hide();
+      }
+    } else {
+      $(this).hide();
+    }
+  });
+}
+
+$('select').change(function () {
+  update($('#selectArea').find(':selected').text(),
+  $('#selectClass').find(':selected').text(),
+  $('#selectLv').find(':selected').text());
+})
