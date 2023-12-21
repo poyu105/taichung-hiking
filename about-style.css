@@ -1,6 +1,19 @@
 .navbar.navbar-expand-lg.bg-body-tertiary {
     padding: 0;
 }
+#navbar-link{
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: #b98c52;
+}
+#navbar-link:hover{
+  background-color: #caa16c;
+}
+#navbar-link:active{
+  color: black;
+  background-color: #c9ac86
+}
 .container-fluid {
     background-color: #ac7938;
 }
@@ -71,15 +84,26 @@ li::before {
 .sub-container:nth-child(even):hover {
   background-color: #f9f9f9;
 }
-
+#page-footer{
+  margin: 0;
+  padding: 1% 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
 @media screen and (max-width: 1200px) {
   .sub-container {
-    width: 40%;
+    width: 80%;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .sub-container {
     width: 80%;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
   }
 }

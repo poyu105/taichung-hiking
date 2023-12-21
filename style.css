@@ -4,6 +4,19 @@
 .container-fluid{
     background-color: rgb(172, 121, 56);
 }
+#navbar-link{
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: #b98c52;
+  }
+  #navbar-link:hover{
+    background-color: #caa16c;
+  }
+  #navbar-link:active{
+    color: black;
+    background-color: #c9ac86
+  }
 #post{
     margin: 2% 2% 1%;
     display: flex;
