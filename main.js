@@ -67,6 +67,7 @@ function getData() {
       alert("error");
     },
   });
+  showCount();
 }
 $(document).ready(function () {
   getData();
@@ -92,10 +93,47 @@ function update(selectedArea, selectedClassification, selectedLevel) {
       $(this).hide();
     }
   });
+  showCount();
 }
 
 $('select').change(function () {
   update($('#selectArea').find(':selected').text(),
   $('#selectClass').find(':selected').text(),
   $('#selectLv').find(':selected').text());
+})
+
+function showCount() {
+  setTimeout(()=>{
+    var visibleCards = $('#post-content .card:visible').length;
+  $('.result').text('共'+visibleCards+'筆');
+  }, 100);
+}
+
+$('.searchbtn').click(function (e) { 
+  e.preventDefault();
+  search($('.inputSearch').val());
+});
+
+function search(str){
+  var searchStr=str;
+  $('#post-content .card').each(function (){
+    var cardTitle=$(this).find('.card-title').text();
+    if(cardTitle.includes(searchStr)){
+      $(this).show();
+    }
+    else{
+      $(this).hide();
+    }
+  })
+  showCount();
+}
+
+$('.clearslc').click(function (e){
+  e.preventDefault();
+  $('#selectArea').val('選擇地區');
+  $('#selectClass').val('選擇分類');
+  $('#selectLv').val('選擇等級');
+  $('.inputSearch').val('');
+  $('#post-content .card').show();
+  showCount();
 })
