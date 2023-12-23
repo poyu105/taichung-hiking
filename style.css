@@ -4,6 +4,19 @@
 .container-fluid{
     background-color: rgb(172, 121, 56);
 }
+#navbar-link{
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: #b98c52;
+  }
+  #navbar-link:hover{
+    background-color: #caa16c;
+  }
+  #navbar-link:active{
+    color: black;
+    background-color: #c9ac86
+  }
 #post{
     margin: 2% 2% 1%;
     display: flex;
@@ -39,19 +52,39 @@ select.form-select{
 }
 .searchbtn{
     border-style: none;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 10px white solid;
     border-radius: 0 50px 50px 0;
 }
 .searchicon{
     width: 10px;
 }
+.clearslc{
+    margin-left: 3%;
+    border-style: none;
+    background-color: rgb(243, 241, 239);
+    border: 1px rgb(196, 196, 196) solid;
+    border-radius: 20px;
+    font-family: Microsoft JhengHei;
+}
+.clearslc:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+.clearslc:active{
+    color: white;
+    background-color: rgb(146, 141, 138);
+}
 .navbar-nav {
     margin-left: auto;
     margin-right: 3%;
 }
+.searchReasult{
+    margin-top: 10px;
+    margin-left: 5.3%;
+    width: 8rem;
+}
 #post-content{
-    margin: 3% 5%;
+    margin: 1% 5%;
     display: grid;
     gap: 0 3%;
     grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
@@ -84,6 +117,15 @@ h5.card-title{
     display: flex;
     justify-content: center;
 }
+@media (max-width:991px) {
+    .navbar-nav{
+        margin-right: 0;
+    }
+    #navbar-link{
+        text-align: center;
+        margin-bottom: 1%;
+    }
+}
 @media (max-width: 800px){
     .post-nav{
         width: 100%;
@@ -100,6 +142,10 @@ h5.card-title{
     }
     .search-form{
         margin-left: 1%;
+    }
+    .clearslc{
+        margin:1% 0 0 1%;
+        height: 3rem;
     }
 }
 @media (max-width:756px){

@@ -28,7 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                        <a id="navbar-link" class="nav-link active" aria-current="page" href="about.html">About Us</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
 <div id="post">
     <div class="post-nav"><!--內文導覽列-->
         <!--下拉選單1-->
-        <select class="form-select" aria-label="Default select example" id="">
+        <select id="selectArea" class="form-select" aria-label="Default select example" id="">
             <option selected value="">選擇地區</option>
             <option value="中區">中區</option>
             <option value="東區">東區</option>
@@ -94,31 +94,35 @@
         </select>
         <!--下拉選單2-->
         <select class="form-select" aria-label="Default select example">
-            <option selected value="">選擇分類</option>
+            <option selected>選擇分類</option>
             <option value="文化歷史">文化歷史</option>
             <option value="自然景觀">自然景觀</option>
             <option value="生態體驗">生態體驗</option>
         </select>
         <!--下拉選單3-->
         <select class="form-select" aria-label="Default select example">
-            <option selected value="">選擇等級</option>
+            <option selected>選擇等級</option>
             <option value="親子級">親子級</option>
             <option value="休閒級">休閒級</option>
             <option value="健腳級">健腳級</option>
         </select>
         <form class="search-form">
-            <input class="inputSearch" type="text" placeholder="Search">
+            <input class="inputSearch" type="text" placeholder="搜尋步道名稱">
             <button class="searchbtn">
                 <img class="searchicon" src="media/search-icon.png">
             </button>
         </form>
+        <button class="clearslc">清除重選</button>
+    </div>
+    <div class="searchReasult">
+        <strong class="result"></strong>
     </div>
         <!--內文-->
         <div id="post-content"></div>
 </div>
 <div id="page-footer">
-        <small>page-footer</small>
-    </div>
+    <small>&copy;2023 <a href="about.html" style="color: white;">製作團隊</a></small>
+</div>
 </body>
 <script src="main.js"></script>
 </html>
