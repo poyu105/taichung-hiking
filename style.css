@@ -1,4 +1,4 @@
-.navbar.navbar-expand-lg.bg-body-tertiary{
+.navbar.navbar-expand-fluid.bg-body-tertiary{
     padding: 0;
 }
 .container-fluid{
@@ -6,9 +6,9 @@
 }
 #navbar-link{
     color: white;
-    border: 1px white solid;
-    border-radius: 10px;
-    background-color: #b98c52;
+    /* border: 1px white solid; */
+    /* border-radius: 10px; */
+    /* background-color: #b98c52; */
   }
   #navbar-link:hover{
     background-color: #caa16c;
@@ -17,15 +17,15 @@
     color: black;
     background-color: #c9ac86
   }
-#post{
-    margin: 2% 2% 1%;
+.post{
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .post-nav{
     width: inherit;
-    margin: 3px;
+    margin: 0;
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;
@@ -82,6 +82,12 @@ select.form-select{
     margin-top: 10px;
     margin-left: 5.3%;
     width: 8rem;
+}
+.postContent{
+    margin: 2% 2% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #post-content{
     margin: 1% 5%;
