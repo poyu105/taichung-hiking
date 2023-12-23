@@ -4,6 +4,19 @@
 .container-fluid{
     background-color: rgb(172, 121, 56);
 }
+#navbar-link{
+    color: white;
+    border: 1px white solid;
+    border-radius: 10px;
+    background-color: #b98c52;
+  }
+  #navbar-link:hover{
+    background-color: #caa16c;
+  }
+  #navbar-link:active{
+    color: black;
+    background-color: #c9ac86
+  }
 #post{
     margin: 2% 2% 1%;
     display: flex;
@@ -103,6 +116,15 @@ h5.card-title{
     color: white;
     display: flex;
     justify-content: center;
+}
+@media (max-width:991px) {
+    .navbar-nav{
+        margin-right: 0;
+    }
+    #navbar-link{
+        text-align: center;
+        margin-bottom: 1%;
+    }
 }
 @media (max-width: 800px){
     .post-nav{
