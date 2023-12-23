@@ -191,7 +191,7 @@ function getData() {
       //初始化卡片
       $("#post-content").empty();
       for (let i = 0; i < dataLengths; i++) {
-        console.log(i);
+        // console.log(i);
         let cardDiv1 = $("<div>").addClass("card");
         let cardImg = $("<img>")
           .addClass("card-img-top")
